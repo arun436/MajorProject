@@ -1,13 +1,17 @@
-
+import React from 'react';
 import '../styles/App.css';
+import SideNav from './SideNav';
+// import TopNav from './TopNav';
+// import FirstBody from './FirstBody';
+// import SecondBody from './SecondBody';
+// import center from './images/center.jpg'
 
 function App() {
+
   return (
     <>
-    <h1>I will do my Major Project Work here</h1>
-    <h1>I am Arun Kumar Chintha</h1>
-    <h1>Project Name - Touring a City</h1>
-    </>
+    <SideNav />
+     </>
   );
 }
 
