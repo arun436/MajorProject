@@ -1,0 +1,66 @@
+#register-form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(8,15,65);
+}
+#register-form-container > form{
+    width: 400px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+#register-form-container > form > .form-field{
+    margin: 10px 0 10px 0;
+    padding: 15px;
+    font-size: 16px;
+    border: 0;
+    font-family: "Roboto",sans-serif;
+}
+#register-form-container > form > .error-in-register{
+    font-family: "Roboto",sans-serif;
+    color: red;
+    font-size: 14px;
+}
+#register-form-container > form > input{
+    padding: 20px;
+    background: #f2f2f2;
+}
+#register-form-container > form > button{
+    cursor: pointer;
+    background: darkblue;
+    color: white;
+}
+#register-form-container > form > #enter-details{
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+}
+#year,#month,#day{
+    cursor: pointer;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    margin: 5px;
+}
+#date-picker{
+    padding: 0;
+    margin: 0;
+}
+#register-form-container > form > #span-date-select{
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+#register-form-container > form > .success-message{
+    background-color: darkblue;
+    padding: 15px;
+    color: white;
+}

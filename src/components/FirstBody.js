@@ -1,13 +1,19 @@
-import React from 'react';
-import TheCity from './images/TheCity.jpg'
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import TheCity from './images/TheCity.jpg';
+import City from './SideComponents/City';
 
 const FirstBody = () => {
+    // const [cityButton, setCityButton] = useState(false);
+    const openCityButton = () => {
+        window.location = '/city';
+    }
     return (
         <section id="body-1">
             <div className="about-left-col">
                 <img src={TheCity}></img>
                 <div className="buttons-body1">
-                <button className="body-1-open-button">Open for more details and location</button>
+                <button className="body-1-open-button" onClick={openCityButton}>Open for more details and location</button>
                 </div>
             </div>
             <div className="about-right-col">

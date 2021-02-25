@@ -10,6 +10,7 @@ import Weather from './SideComponents/Weather';
 import Home from './SideComponents/Home';
 import Navbar from './Navbar';
 import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import RegisterFormMain from './RegisterFormMain';
 
 const SideNav = () => {
 
@@ -27,6 +28,7 @@ const SideNav = () => {
                     <Route path="/cafes" component={Cafes}/>
                     <Route path="/bars" component={Bars}/>
                     <Route path="/Weather" component={Weather}/>
+                    <Route path="/register" component={RegisterFormMain}/>
                 </Switch>
             </Router>
         </>

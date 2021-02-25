@@ -1,6 +1,10 @@
 import React from 'react';
+import '../styles/App.css';
 
 const TopNav = () => {
+    const OpenRegister = () => {
+        window.location = "/register";
+    }
     return (
         <>
         <ul id="top-nav-ul">
@@ -11,9 +15,8 @@ const TopNav = () => {
             <li><a href="#">Feedback</a></li>
         </ul>
         <div className="title-main">
-            <h1>Travel Guide</h1>
-            <h2>-------------------------------------</h2>
-            <h1>Bangalore</h1>
+            <h1>Travel Guide - Bangalore</h1>
+            <button id="register-home" onClick={OpenRegister}>Register</button>
         </div>
         </>
     );

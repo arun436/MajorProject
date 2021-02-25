@@ -2,9 +2,9 @@ import React from 'react';
 
 const MostVisited = () => {
     return (
-        <>
-          Do and See  
-        </>
+        <div id="mostvisited-body-main-div">
+            <h1 id="heading-mostvisited-h1">Most Visited Places in Bangalore</h1>
+        </div>
     );
 };
 
