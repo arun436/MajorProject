@@ -54,6 +54,7 @@ header{
   #body-1 .about-right-col .about-text h1{
       margin-bottom: 15px;
       font-size: 35px;
+      text-align: center;
   }
   #body-1 .about-right-col .about-text p {
     text-align: justify;
@@ -80,35 +81,25 @@ header{
     justify-content: flex-end;
     margin-right: 50px;
   }
-  .buttons-body1{
-    width: 100%;
-    margin-left: 40px;
-    display: inline-flex;
-    flex-direction: row;
-    text-align: center;
+  #body-1 .about-right-col .buttons-body1{
+    height: 37px;
+    width: 130px;
+    margin-left: 450px;
+    margin-bottom: 10px;
   }
-  .buttons-body1 .body-1-open-button{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    flex-grow: 1;
-    padding: 3px;
-    font-size: 1.5rem;
-    color: black;
-    background-color: white;
-    border: 2px solid black;
-    /* background-color: #8b008b;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)); */
-    /* opacity: 0.7; */
-  }
-  .buttons-body1 .body-1-open-button:hover{
-    /* opacity: 0.7; */
-    cursor: pointer;
-    /* font-weight: bold; */
-    font-size: 25px;
+  #body-1 .about-right-col .buttons-body1 .body-1-open-button{
+    background-color: rgb(128, 0, 64);
     color: white;
-    background-color: black;
-    transition: .6s ease;
-    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    border: none;
   }
+
+  .buttons-body1 .body-1-open-button:hover{
+    cursor: pointer;
+    transition: .6s ease;
+    opacity: 0.9;
+   }
   /* Second Body */
 #body-2{
     padding: 50px 0;
@@ -123,6 +114,7 @@ header{
   #body-2 .Vidhan-left-div h1{
     margin-top: 0px;
     margin-bottom: 20px;
+    text-align: center;
   }
   
   #body-2 .Vidhan-left-div p{
@@ -132,59 +124,21 @@ header{
     line-height: 35px;
     text-align: justify;
   }
-  
-  #body-2 .Vidhan-left-div .address{
-    font-size: 20px;
-    margin-top: 30px;
-    margin-left: 30px;
-  }
-  
-  #body-2 .Vidhan-left-div .address #make-large{
-    font-weight: bold;
-    margin-right: 10px;
-  }
-  
-  #body-2 .Vidhan-left-div .openinghours{
-    font-size: 20px;
-    margin-top: 30px;
-    margin-left: 30px;
-  }
-  
-  #body-2 .Vidhan-left-div .openinghours #make-large{
-    font-weight: bold;
-    margin-right: 10px;
-  }
-  
-  .buttons-body-2{
-    width: 100%;
-    margin-left: 30px;
-    margin-right: 40px;
-    display: inline-flex;
-    flex-direction: column;
+  #body-2 .Vidhan-left-div .buttons-body-2{
     text-align: center;
   }
-  .buttons-body-2 #body-2-open-button{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    flex-grow: 1;
-    margin-top: 30px;
-    margin-right: 80px;
-    padding: 3px;
-    font-size: 1.5rem;
-    color: black;
-    background-color: white;
-    /* background-color: #8b008b;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)); */
-    /* opacity: 0.7; */
-  }
-  .buttons-body-2 #body-2-open-button:hover{
-    cursor: pointer;
-    font-size: 25px;
+  #body-2 .Vidhan-left-div .buttons-body-2 #body-2-open-button{
+    height: auto;
+    width: 150px;
+    background-color: rgb(128, 0, 64);
     color: white;
-    background-color: black;
-    transition: .6s ease;
-    /* font-weight: bold; */
-    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-    /* opacity: 0.7; */
+    margin-left: 180px;
+    font-size: 20px;
+  }
+  #body-2 .Vidhan-left-div .buttons-body-2 #body-2-open-button:hover{
+    opacity: 0.9;
+    transition: 0.6s ease;
+    cursor: pointer;
   }
   
   #body-2 .Vidhan-right-div{
@@ -273,6 +227,8 @@ header{
 #body-3 #restaurants-right-col .restaurants-heading{
   margin-bottom: 50px;
   font-size: 22px;
+  text-align: center;
+  justify-content: center;
 }
 #body-3 #restaurants-right-col .restaurants-text{
   margin: 40px;
@@ -285,24 +241,24 @@ header{
 }
 #body-3 #restaurants-right-col .restaurants-text .button-restaurants{
   display: flex;
+  text-align: center;
+  margin-top: 25px;
+  justify-content: center;
+  margin-right: 50px;
 }
 #body-3 #restaurants-right-col .restaurants-text .button-restaurants #btn-restaurant{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  flex-grow: 1;
-  margin-top: 30px;
-  margin-left: 0px;
-  margin-right: 20px;
-  padding: 3px;
-  font-size: 1.5rem;
-  color: black;
-  background-color: white;
+  height: 37px;
+  width: 150px;
+  background-color: rgb(128, 0, 64);
+  color: white;
+  font-size: 20px;
+
 }
 #body-3 #restaurants-right-col .restaurants-text .button-restaurants #btn-restaurant:hover{
-  color: white;
-  font-size: 25px;
-  background-color: black;
   transition: 0.6s ease;
-  transform: scale(1.01);
+  cursor: pointer;
+  opacity: 0.9;
 }
 #body-4{
   padding: 50px 40px;
@@ -323,6 +279,7 @@ header{
 #body-4 #hotels-left-col #hotels-heading h1{
   margin-bottom: 30px;
   font-size: 28px;
+  text-align: center;
 }
 #body-4 #hotels-left-col #hotels-text{
   margin-right: 40px;
@@ -334,25 +291,22 @@ header{
 }
 #body-4 #button-hotel{
   display: flex;
-  margin-top: 30px;
-  margin-left: 20px;
+  text-align: center;
+  margin-top: 25px;
+  justify-content: center;
 }
 #button-hotel #btn-hotel{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  flex-grow: 1;
-  margin-top: 30px;
-  margin-right: 50px;
-  /* margin-left: 25px; */
-  padding: 3px;
-  font-size: 24px;
-  color: black;
-  background-color: white;
+  height: 37px;
+  width: 130px;
+  background-color: rgb(128, 0, 64);
+  color: white;
+  font-size: 20px;
 }
 #button-hotel #btn-hotel:hover{
-  font-size: 28px;
-  color: white;
-  background-color: black;
+  opacity: 0.9;
   transition: 0.6s ease;
+  cursor: pointer;
 }
 #body-5{
   padding: 50px 40px;
@@ -372,6 +326,7 @@ header{
 #body-5 #shopping-right-col #shopping-heading{
   margin-bottom: 30px;
   font-size: 24px;
+  text-align: center;
 }
 #body-5 #shopping-right-col #shopping-text,#button-shopping{
   margin-left: 40px;
@@ -385,21 +340,23 @@ header{
 #body-5 #shopping-right-col #button-shopping{
   margin-top: 30px;
   display: flex;
+  text-align: center;
+  margin-top: 25px;
+  justify-content: center;
 }
 #body-5 #shopping-right-col #button-shopping #btn-shopping{
-  flex-grow: 1;
-  padding: 5px;
-  font-size: 24px;
-  cursor: pointer;
-  color: black;
-  background-color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  height: 37px;
+  width: 130px;
+  background-color: rgb(128, 0, 64);
+  color: white;
+  font-size: 20px;
 }
 
 #body-5 #shopping-right-col #button-shopping #btn-shopping:hover{
-  color: white;
-  background-color: black;
+  opacity: 0.9;
+  cursor: pointer;
   transition: 0.6s ease;
-  font-size: 26px;
 }
 
 /* Cafes - sixth body */
@@ -425,6 +382,7 @@ header{
 }
 #body-6 #cafes-left-col #cafe-heading h1{
   font-size: 30px;
+  text-align: center;
 }
 #body-6 #cafes-left-col #cafe-text p{
   margin-right: 40px;
@@ -434,22 +392,22 @@ header{
 }
 #body-6 #cafes-left-col #button-cafe{
   display: flex;
-  margin-right: 40px;
+  text-align: center;
+  justify-content: center;
   margin-top: 30px;
 }
 #body-6 #cafes-left-col #button-cafe #btn-cafe{
-  flex-grow: 1;
-  padding: 5px;
-  font-size: 24px;
-  color: black;
-  background-color: white;
-  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  height: 37px;
+  width: 130px;
+  background-color: rgb(128, 0, 64);
+  color: white;
+  font-size: 20px;
 }
 #body-6 #cafes-left-col #button-cafe #btn-cafe:hover{
-  color: white;
-  background-color: black;
   transition: .6s ease;
-  font-size: 26px;
+  opacity: 0.9;
+  cursor: pointer;
 }
 
 #body-7{
@@ -472,6 +430,7 @@ header{
   margin-bottom: 40px;
 }
 #body-7 #bars-right-col #bars-heading h1{
+  text-align: center;
   font-size: 30px;
 }
 #body-7 #bars-right-col #bars-text p{
@@ -482,22 +441,22 @@ header{
 }
 #body-7 #bars-right-col #button-bars{
   display: flex;
+  text-align: center;
+  justify-content: center;
   margin-top: 30px;
 }
 #body-7 #bars-right-col #button-bars #btn-bars{
-  flex-grow: 1;
-  margin-left: 40px;
-  padding: 5px;
-  font-size: 24px;
-  color: black;
-  background-color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  height: 37px;
+  width: 130px;
+  background-color: rgb(128, 0, 64);
+  color: white;
+  font-size: 20px;
 }
 #body-7 #bars-right-col #button-bars #btn-bars:hover{
-  color: white;
-  background-color: black;
+  opacity: 0.9;
   cursor: pointer;
   transition: 0.6s ease;
-  font-size: 26px;
 }
 
 #body-8{
@@ -520,6 +479,7 @@ header{
   margin-bottom: 40px;
 }
 #body-8 #weather-left-col #weather-heading h1{
+  text-align: center;
   font-size: 30px;
 }
 #body-8 #weather-left-col #weather-text p{
@@ -530,22 +490,22 @@ header{
 }
 #body-8 #weather-left-col #button-weather{
   display: flex;
+  text-align: center;
+  justify-content: center;
   margin-top: 30px;
-  margin-right: 40px;
 }
 #body-8 #weather-left-col #button-weather #btn-weather{
-  flex-grow: 1;
-  padding: 5px;
-  font-size: 24px;
-  color: black;
-  background-color: white;
-  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  height: 37px;
+  width: 130px;
+  background-color: rgb(128, 0, 64);
+  color: white;
+  font-size: 20px;
 }
 #body-8 #weather-left-col #button-weather #btn-weather:hover{
-  color: white;
-  background-color: black;
+  opacity: 0.9;
+  cursor: pointer;
   transition: 0.6s ease;
-  font-size: 26px;
 }
 
 /* Footer */
@@ -576,6 +536,7 @@ header{
   padding: 25px;
 }
 .footer .footer-content .about .logo-text{
+  text-align: center;
   font-size: 24px;
   margin-bottom: 15px;
 }
@@ -594,7 +555,8 @@ header{
 .footer .footer-content .about .socials{
   display: flex;
   flex-direction: row;
-  margin-left: 100px;
+  /* margin-left: 100px; */
+  justify-content: space-evenly;
 }
 .footer .footer-content .about .socials a{
   margin: 20px;

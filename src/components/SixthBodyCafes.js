@@ -19,7 +19,7 @@ function SixthBodyCafes() {
                 </p>
                 </div>
                 <div id="button-cafe">
-                    <button id="btn-cafe">Open for more details and location</button>
+                    <button id="btn-cafe">Open</button>
                 </div>
             </div>
             <div id="cafes-right-col">

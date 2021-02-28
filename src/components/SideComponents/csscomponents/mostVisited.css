@@ -1,5 +1,491 @@
 #mostvisited-body-main-div #heading-mostvisited-h1{
     padding-top: 70px;
     font-size: 40px;
+    margin-bottom: 70px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* text-align: center; */
+    text-align: center;
+}
+#mostvisited-body-main-div h1{
+    text-align: center;
+    /* margin-bottom: 50px; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#mostvisited-body-main-div #sections-most-visited{
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+#mostvisited-body-main-div #sections-most-visited #mostvisited-left-col-page{
+    flex-basis: 50%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#mostvisited-body-main-div #sections-most-visited #mostvisited-left-col-page img{
+    width: 100%;
+}
+#mostvisited-body-main-div #sections-most-visited #most-visited-right-col-page{
+    flex-basis: 50%;
+}
+#mostvisited-body-main-div #sections-most-visited #mostvisited-right-col-page #map-1{
+    padding-left: 0;
+    padding-top: 100px;
+}
+
+#mostvisited-body-main-div #sections-most-visited #mostvisited-right-col-page #map-1 p{
+    line-height: 40px;
+    font-size: 19px;
+    justify-content: flex-start;
+}
+#mostvisited-body-main-div #sections-most-visited #mostvisited-right-col-page #map-1 p .Address-1-Vidhan,.Opening-1-Vidhan{
+    font-weight: bold;
+}
+#mostvisited-body-main-div #sections-most-visited #mostvisited-right-col-page #map-1 .map-Vidhan{
+    margin-left: 300px;
+    margin-top: 50px;
+    font-size: 17px;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: rgb(128, 0, 64);
+    color: white;
+}
+#mostvisited-body-main-div #Info-Vidhan{
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 35px;
+    font-size: 19px;
+}
+#mostvisited-body-main-div #Cubbon-park-heading{
+    margin-top: 50px;
+}
+#mostvisited-body-main-div #sections-most-visited-2{
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#mostvisited-body-main-div #sections-most-visited-2 #mostvisited-2-right-col-page{
+    flex-basis: 50%;
+    margin-left: 50px;
+}
+#mostvisited-body-main-div #sections-most-visited-2 #mostvisited-2-right-col-page img{
+    width: 100%;
+}
+#mostvisited-body-main-div #sections-most-visited-2 #most-visited-2-left-col-page{
+    flex-basis: 50%;
+}
+#mostvisited-body-main-div #sections-most-visited-2 #mostvisited-2-left-col-page #map-2{
+    padding-left: 0;
+    padding-top: 100px;
+}
+
+#mostvisited-body-main-div #sections-most-visited-2 #mostvisited-2-left-col-page #map-2 p{
+    line-height: 40px;
+    font-size: 19px;
+    justify-content: flex-start;
+}
+#mostvisited-body-main-div #sections-most-visited-2 #mostvisited-2-left-col-page #map-2 p .Address-1-Cubbon,.Opening-1-Cubbon{
+    font-weight: bold;
+}
+#mostvisited-body-main-div #sections-most-visited-2 #mostvisited-2-left-col-page #map-2 .map-Cubbon{
+    margin-left: 300px;
+    margin-top: 50px;
+    font-size: 17px;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: rgb(128, 0, 64);
+    color: white;
+}
+#mostvisited-body-main-div #Info-Cubbon{
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 35px;
+    font-size: 19px;
+}
+#mostvisited-body-main-div #Bangalore-palace-heading{
+    margin-top: 50px;
+}
+#mostvisited-body-main-div #sections-most-visited-3{
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#mostvisited-body-main-div #sections-most-visited-3 #mostvisited-3-left-col-page{
+    flex-basis: 50%;
+    margin-left: 100px;
+}
+#mostvisited-body-main-div #sections-most-visited-3 #mostvisited-3-left-col-page img{
+    width: 100%;
+}
+#mostvisited-body-main-div #sections-most-visited-3 #most-visited-3-right-col-page{
+    flex-basis: 50%;
+}
+#mostvisited-body-main-div #sections-most-visited-3 #mostvisited-3-right-col-page #map-3{
+    padding-left: 0;
+    padding-top: 100px;
+}
+
+#mostvisited-body-main-div #sections-most-visited-3 #mostvisited-3-right-col-page #map-3 p{
+    line-height: 40px;
+    font-size: 19px;
+    justify-content: flex-start;
+}
+#mostvisited-body-main-div #sections-most-visited-3 #mostvisited-3-right-col-page #map-3 p .Address-1-Palace,.Opening-1-Palace{
+    font-weight: bold;
+}
+#mostvisited-body-main-div #sections-most-visited-3 #mostvisited-3-right-col-page #map-3 .map-Palace{
+    margin-left: 200px;
+    margin-top: 50px;
+    font-size: 17px;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: rgb(128, 0, 64);
+    color: white;
+}
+#mostvisited-body-main-div #Info-Palace{
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 35px;
+    font-size: 19px;
+}
+
+#mostvisited-body-main-div #Nandi-hills-heading{
+    margin-top: 50px;
+}
+#mostvisited-body-main-div #sections-most-visited-4{
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#mostvisited-body-main-div #sections-most-visited-4 #mostvisited-4-left-col-page{
+    flex-basis: 50%;
+    margin-left: 150px;
+}
+#mostvisited-body-main-div #sections-most-visited-4 #mostvisited-4-left-col-page img{
+    width: 100%;
+}
+#mostvisited-body-main-div #sections-most-visited-4 #most-visited-4-right-col-page{
+    flex-basis: 50%;
+}
+#mostvisited-body-main-div #sections-most-visited-4 #mostvisited-4-right-col-page #map-4{
+    padding-left: 0;
+    padding-top: 100px;
+}
+
+#mostvisited-body-main-div #sections-most-visited-4 #mostvisited-4-right-col-page #map-4 p{
+    line-height: 40px;
+    font-size: 19px;
+    justify-content: flex-start;
+    /* padding-left: 20px; */
+}
+#mostvisited-body-main-div #sections-most-visited-4 #mostvisited-4-right-col-page #map-4 p .Address-1-Hills,.Opening-1-Hills{
+    font-weight: bold;
+}
+#mostvisited-body-main-div #sections-most-visited-4 #mostvisited-4-right-col-page #map-4 .map-Hills{
+    margin-left: 300px;
+    margin-top: 50px;
+    font-size: 17px;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: rgb(128, 0, 64);
+    color: white;
+}
+#mostvisited-body-main-div #Info-Hills{
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 35px;
+    font-size: 19px;
+}
+
+#mostvisited-body-main-div #Iskcon-Temple-heading{
+    margin-top: 50px;
+}
+#mostvisited-body-main-div #sections-most-visited-5{
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#mostvisited-body-main-div #sections-most-visited-5 #mostvisited-5-left-col-page{
+    flex-basis: 50%;
+    margin-left: 60px;
+}
+#mostvisited-body-main-div #sections-most-visited-5 #mostvisited-5-left-col-page img{
+    width: 100%;
+}
+#mostvisited-body-main-div #sections-most-visited-5 #most-visited-5-right-col-page{
+    flex-basis: 50%;
+}
+#mostvisited-body-main-div #sections-most-visited-5 #mostvisited-5-right-col-page #map-5{
+    padding-left: 0;
+    padding-top: 100px;
+}
+
+#mostvisited-body-main-div #sections-most-visited-5 #mostvisited-5-right-col-page #map-5 p{
+    line-height: 40px;
+    font-size: 19px;
+    justify-content: flex-start;
+    /* padding-left: 20px; */
+}
+#mostvisited-body-main-div #sections-most-visited-5 #mostvisited-5-right-col-page #map-5 p .Address-1-Temple,.Opening-1-Temple{
+    font-weight: bold;
+}
+#mostvisited-body-main-div #sections-most-visited-5 #mostvisited-5-right-col-page #map-5 .map-Temple{
+    margin-left: 300px;
+    margin-top: 50px;
+    font-size: 17px;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: rgb(128, 0, 64);
+    color: white;
+}
+#mostvisited-body-main-div #Info-Temple{
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 35px;
+    font-size: 19px;
+}
+
+
+#mostvisited-body-main-div #Wonderla-heading{
+    margin-top: 50px;
+}
+#mostvisited-body-main-div #sections-most-visited-6{
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#mostvisited-body-main-div #sections-most-visited-6 #mostvisited-6-left-col-page{
+    flex-basis: 50%;
+    /* margin-right: 50px; */
+    margin-left: 100px;
+}
+#mostvisited-body-main-div #sections-most-visited-6 #mostvisited-6-left-col-page img{
+    width: 100%;
+}
+#mostvisited-body-main-div #sections-most-visited-6 #most-visited-6-right-col-page{
+    flex-basis: 50%;
+}
+#mostvisited-body-main-div #sections-most-visited-6 #mostvisited-6-right-col-page #map-6{
+    padding-left: 0;
+    padding-top: 100px;
+}
+
+#mostvisited-body-main-div #sections-most-visited-6 #mostvisited-6-right-col-page #map-6 p{
+    line-height: 40px;
+    font-size: 19px;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+#mostvisited-body-main-div #sections-most-visited-6 #mostvisited-6-right-col-page #map-6 p .Address-1-Wonderla,.Opening-1-Wonderla{
+    font-weight: bold;
+}
+#mostvisited-body-main-div #sections-most-visited-6 #mostvisited-6-right-col-page #map-6 .map-Wonderla{
+    margin-left: 300px;
+    margin-top: 50px;
+    font-size: 17px;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: rgb(128, 0, 64);
+    color: white;
+}
+#mostvisited-body-main-div #Info-Wonderla{
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 35px;
+    font-size: 19px;
+}
+
+#mostvisited-body-main-div #Mysore-Palace-heading{
+    margin-top: 50px;
+}
+#mostvisited-body-main-div #sections-most-visited-7{
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#mostvisited-body-main-div #sections-most-visited-7 #mostvisited-7-left-col-page{
+    flex-basis: 50%;
+    margin-left: 60px;
+}
+#mostvisited-body-main-div #sections-most-visited-7 #mostvisited-7-left-col-page img{
+    width: 100%;
+}
+#mostvisited-body-main-div #sections-most-visited-7 #most-visited-7-right-col-page{
+    flex-basis: 50%;
+}
+#mostvisited-body-main-div #sections-most-visited-7 #mostvisited-7-right-col-page #map-7{
+    padding-left: 0;
+    padding-top: 100px;
+}
+
+#mostvisited-body-main-div #sections-most-visited-7 #mostvisited-7-right-col-page #map-7 p{
+    line-height: 40px;
+    font-size: 19px;
+    justify-content: flex-start;
+    /* padding-left: 20px; */
+}
+#mostvisited-body-main-div #sections-most-visited-7 #mostvisited-7-right-col-page #map-7 p .Address-1-Mysore,.Opening-1-Mysore{
+    font-weight: bold;
+}
+#mostvisited-body-main-div #sections-most-visited-7 #mostvisited-7-right-col-page #map-7 .map-Mysore{
+    margin-left: 300px;
+    margin-top: 50px;
+    font-size: 17px;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: rgb(128, 0, 64);
+    color: white;
+}
+#mostvisited-body-main-div #Info-Mysore{
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 35px;
+    font-size: 19px;
+}
+
+#mostvisited-body-main-div #Lalbagh-heading{
+    margin-top: 50px;
+}
+#mostvisited-body-main-div #sections-most-visited-8{
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#mostvisited-body-main-div #sections-most-visited-8 #mostvisited-8-left-col-page{
+    flex-basis: 50%;
+    /* margin-right: 50px; */
+    margin-left: 200px;
+}
+#mostvisited-body-main-div #sections-most-visited-8 #mostvisited-8-left-col-page img{
+    width: 100%;
+}
+#mostvisited-body-main-div #sections-most-visited-8 #most-visited-8-right-col-page{
+    flex-basis: 50%;
+}
+#mostvisited-body-main-div #sections-most-visited-8 #mostvisited-8-right-col-page #map-8{
+    padding-left: 0;
+    padding-top: 100px;
+}
+
+#mostvisited-body-main-div #sections-most-visited-8 #mostvisited-8-right-col-page #map-8 p{
+    line-height: 40px;
+    font-size: 19px;
+    justify-content: flex-start;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+#mostvisited-body-main-div #sections-most-visited-8 #mostvisited-8-right-col-page #map-8 p .Address-1-Lalbagh,.Opening-1-Lalbagh{
+    font-weight: bold;
+}
+#mostvisited-body-main-div #sections-most-visited-8 #mostvisited-8-right-col-page #map-8 .map-Lalbagh{
+    margin-left: 270px;
+    margin-top: 50px;
+    font-size: 17px;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: rgb(128, 0, 64);
+    color: white;
+}
+#mostvisited-body-main-div #Info-Lalbagh{
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 35px;
+    font-size: 19px;
+}
+
+#mostvisited-body-main-div #Nehru-Planetorium-heading{
+    margin-top: 50px;
+}
+#mostvisited-body-main-div #sections-most-visited-9{
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#mostvisited-body-main-div #sections-most-visited-9 #mostvisited-9-left-col-page{
+    flex-basis: 50%;
+    margin-left: 60px;
+}
+#mostvisited-body-main-div #sections-most-visited-9 #mostvisited-9-left-col-page img{
+    width: 100%;
+}
+#mostvisited-body-main-div #sections-most-visited-9 #most-visited-9-right-col-page{
+    flex-basis: 50%;
+}
+#mostvisited-body-main-div #sections-most-visited-9 #mostvisited-9-right-col-page #map-9{
+    padding-left: 0;
+    padding-top: 100px;
+}
+
+#mostvisited-body-main-div #sections-most-visited-9 #mostvisited-9-right-col-page #map-9 p{
+    line-height: 40px;
+    font-size: 19px;
+    justify-content: flex-start;
+    /* padding-left: 20px; */
+}
+#mostvisited-body-main-div #sections-most-visited-9 #mostvisited-9-right-col-page #map-9 p .Address-1-Nehru,.Opening-1-Nehru{
+    font-weight: bold;
+}
+#mostvisited-body-main-div #sections-most-visited-9 #mostvisited-9-right-col-page #map-9 .map-Nehru{
+    margin-left: 300px;
+    margin-top: 50px;
+    font-size: 17px;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: rgb(128, 0, 64);
+    color: white;
+}
+#mostvisited-body-main-div #Info-Nehru{
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 35px;
+    font-size: 19px;
+    margin-bottom: 150px;
+}
+#mostvisited-body-main-div .footer{
+    height: 0;
+    margin-top: 50px;
+    /* position: static; */
+}
+#back-button-map{
+    height: 30px;
+    width: 70px;
+    margin-left: 80px;
+    margin-top: 10px;
+    /* margin-bottom: 20px; */
+    font-size: 1.3rem;
+    color: white;
+    background-color: rgb(128, 0, 64);
+}
+#back-button-map:hover{
+    color: black;
+    background-color: white;
+    transition: 0.6s ease;
+    cursor: pointer;
 }

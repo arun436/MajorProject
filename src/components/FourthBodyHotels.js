@@ -15,7 +15,7 @@ function FourthBodyHotels() {
                 Hotel rooms are known for having terraces with views that are perfect for enjoyment.Here are some cool hotels that you can checkout by clicking the below button.</p>
                 </div>
                 <div id="button-hotel">
-                    <button id="btn-hotel">Open for more details and location</button>
+                    <button id="btn-hotel">Open</button>
                 </div>
             </div>
             <div id="hotels-right-col">

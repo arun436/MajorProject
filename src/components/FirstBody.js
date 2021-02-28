@@ -12,9 +12,6 @@ const FirstBody = () => {
         <section id="body-1">
             <div className="about-left-col">
                 <img src={TheCity}></img>
-                <div className="buttons-body1">
-                <button className="body-1-open-button" onClick={openCityButton}>Open for more details and location</button>
-                </div>
             </div>
             <div className="about-right-col">
                 <div className="about-text">
@@ -28,6 +25,10 @@ const FirstBody = () => {
                 </div>
                 <h2>“The world is a book and those who do not travel read only a page.”</h2>
                 <h3>~ Saint Augustine.</h3>
+                </div>
+                <div className="buttons-body1">
+                <button className="body-1-open-button" onClick={openCityButton}>Open</button>
+                {/* </div> */}
 
                 </div>
             </div>

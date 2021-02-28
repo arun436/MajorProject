@@ -10,7 +10,12 @@ import Lalbagh from './images/Lalbagh.jpg';
 import planetorium from './images/planetorium.jpg';
 
 const SecondBody = () => {
-    const content = '';
+    const openMostVisitedButton = () => {
+        window.location = "./mostvisited";
+    }
+    const openMostVisited = () => {
+        window.location = "/mostvisited";
+    }
     return (
         <section id="body-2">
             <div className="Vidhan-left-div">
@@ -18,10 +23,10 @@ const SecondBody = () => {
                 <p>To talk of innumerable epithets! Bangalore or Bengaluru as it is called, also offers some attractions in the form of historical temples, nightlife and lip-smacking delicacies. Aiming to explore Bangalore extensively on your next trip?</p>
                 <p>Here are the list of famous places in Bangalore you must want to visit once in your life. If you are looking to plan a weekend trip with your family and friends, So these are the most attracting tourist places in Bangalore to visit that will make you fall in love.</p>
                 <div className="buttons-body-2">
-                    <button id="body-2-open-button">Open for more details and location</button>
+                    <button id="body-2-open-button" onClick={openMostVisitedButton}>Open</button>
                 </div>
             </div>
-            <div className="Vidhan-right-div">
+            <div className="Vidhan-right-div" onClick={openMostVisited}>
                 <div id="img-1-div" className="imgs-div">
                     <p className="img-description">Vidhan Soudha</p>
                     <img src={VidhanaSoudha} id="img-1-mostvisited"/>

@@ -20,7 +20,7 @@ function FifthBodyShopping() {
                     </p>
                 </div>
                 <div id="button-shopping">
-                    <button id="btn-shopping">Open for more details and location</button>
+                    <button id="btn-shopping">Open</button>
                 </div>
             </div>
         </section>

@@ -13,7 +13,7 @@ function EighthBodyWeather() {
                     <p>If you want to visit to Bangalore? If yes, then checkout the weather that suits you to visit. Click on the button below to checkout.</p>
                 </div>
                 <div id="button-weather">
-                    <button id="btn-weather">Open for weather details</button>
+                    <button id="btn-weather">Open</button>
                 </div>
             </div>
             <div id="weather-right-col">

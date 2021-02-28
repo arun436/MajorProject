@@ -23,7 +23,7 @@ function SeventhBodyBars() {
                     </p>
                 </div>
                 <div id="button-bars">
-                    <button id="btn-bars">Open for more details and location</button>
+                    <button id="btn-bars">Open</button>
                 </div>
             </div>
         </section>

@@ -65,6 +65,11 @@ const City = () => {
                     <img src={City6}/>
                 </div>
             </section>
+            <div className="footer">
+                <div className="footer-bottom">
+                &copy; Travelguides.com | Designed by Arun Kumar Chintha
+                </div>
+            </div>
         </div>
     );
 };
