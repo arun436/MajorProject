@@ -51,8 +51,10 @@ const MostVisited = () => {
             </section>
             <section id="mostvisited-right-col-page">
                 <div id="map-1">
-                        <p className="Address-Vidhan"><span className="Address-1-Vidhan">Address:</span><span className="Address-2-Vidhan">Ambedkar Veedhi, Sampangi Rama Nagara, Bengaluru</span></p>
-                        <p className="Opening-Vidhan"><span className="Opening-1-Vidhan">Opening hours:</span><span className="Opening-2-Vidhan">Monday–Friday 9am–5pm, closed on Saturday–Sunday</span></p>
+                        <p className="Address-Vidhan"><span className="Address-1-Vidhan">Address: </span>
+                        Ambedkar Veedhi, Sampangi Rama Nagara, Bengaluru</p>
+                        <p className="Opening-Vidhan"><span className="Opening-1-Vidhan">Opening hours: </span>
+                        Monday–Friday 9am–5pm, closed on Saturday–Sunday</p>
                         <button className="map-Vidhan" onClick={VidhanMap}>Location</button>
                 </div>
             </section>
@@ -109,8 +111,8 @@ const MostVisited = () => {
             <div id="sections-most-visited-4">
             <section id="mostvisited-4-right-col-page">
                     <div id="map-4">
-                        <p className="Address-Hills"><span className="Address-1-Hills">Address:</span><span className="Address-2-Hills">10 km from Chickballapur town, Bengaluru</span></p>
-                        <p className="Opening-Hills"><span className="Opening-1-Hills">Opening hours:</span><span className="Opening-2-Hills">Daily 6:00am–10:00pm</span></p>
+                        <p className="Address-Hills"><span className="Address-1-Hills">Address:</span>10 km from Chickballapur town, Bengaluru</p>
+                        <p className="Opening-Hills"><span className="Opening-1-Hills">Opening hours:</span>Daily 6:00am–10:00pm</p>
                         <button className="map-Hills" onClick={HillsMap}>Location</button>
                     </div>
                 </section>
