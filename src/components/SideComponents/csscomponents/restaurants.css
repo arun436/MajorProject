@@ -1,0 +1,66 @@
+#restaurants-body-main-div #heading-restaurants-h1{
+    padding-top: 40px;
+    font-size: 40px;
+    margin-bottom: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* text-align: center; */
+    text-align: center;
+}
+#restaurants-body-main-div h1{
+    text-align: center;
+    /* margin-bottom: 50px; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#restaurants-body-main-div #sections-restaurants{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+#restaurants-body-main-div #sections-restaurants #restaurants-left-col-page{
+    flex-basis: 40%;
+    /* margin-left: 50px; */
+    margin-top: 20px;
+}
+#restaurants-body-main-div #sections-restaurants #restaurants-left-col-page img{
+    padding-left: 90px;
+    margin-left: 30px;
+    width: 90%;
+}
+#restaurants-body-main-div #sections-restaurants #restaurants-right-col-page{
+    flex-basis: 60%;
+    display: flex;
+}
+#restaurants-body-main-div #sections-restaurants #restaurants-right-col-page #map-1{
+    margin-left: 140px;
+    margin-top: 20px;
+    /* padding-top: 50px; */
+    padding-right: 10px;
+    justify-content: flex-start;
+}
+#restaurants-body-main-div #Info-rest .address-info p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    text-indent: 0%;
+}
+#restaurants-body-main-div #Info-rest .address-info p span{
+    font-weight: bold;
+}
+#restaurants-body-main-div #Info-rest .address-info{
+    margin-bottom: 20px;
+}
+
+#restaurants-body-main-div #Info-rest{
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 35px;
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+#restaurants-body-main-div .footer{
+    height: 0;
+    margin-top: 100px;
+    /* position: static; */
+}

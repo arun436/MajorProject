@@ -28,15 +28,15 @@ const SecondBody = () => {
             </div>
             <div className="Vidhan-right-div" onClick={openMostVisited}>
                 <div id="img-1-div" className="imgs-div">
-                    <p className="img-description">Vidhan Soudha</p>
-                    <img src={VidhanaSoudha} id="img-1-mostvisited"/>
+                <p className="img-description">Vidhan Soudha</p>
+                    <img src={VidhanaSoudha} id="img-1-mostvisited"></img>
                 </div>
                 <div id="img-2-div" className="imgs-div">
                     <p className="img-description">Cubbon Park</p>
                     <img src={CubbonPark2} id="img-2-mostvisited"/>
                 </div>
                 <div id="img-3-div" className="imgs-div">
-                    <p className="img-description">Palace</p>
+                    <p className="img-description">Bangalore Palace</p>
                     <img src={center} id="img-3-mostvisited"/>
                 </div>
                 <div id="img-4-div" className="imgs-div">
@@ -60,7 +60,7 @@ const SecondBody = () => {
                     <img src={Lalbagh} id="img-8-mostvisited"/>
                 </div>
                 <div id="img-9-div" className="imgs-div">
-                    <p className="img-description">Planetorium</p>
+                    <p className="img-description">Nehru Planetorium</p>
                     <img src={planetorium} id="img-9-mostvisited"/>
                 </div>
             </div>
