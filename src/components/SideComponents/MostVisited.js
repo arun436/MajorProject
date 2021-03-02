@@ -11,55 +11,27 @@ import Lalbagh from './mostVisitedSectionImages/Lalbagh.jpg';
 import planetorium from './mostVisitedSectionImages/planetorium.jpg';
 
 const MostVisited = () => {
-
-    const VidhanMap = () => {
-        window.location = "/VidhanSoudha";
-    }
-    const CubbonMap = () => {
-        window.location = "/CubbonPark";
-    }
-    const PalaceMap = () => {
-        window.location = "/BangalorePalace";
-    }
-    const HillsMap = () => {
-        window.location = "/NandiHills";
-    }
-    const TempleMap = () => {
-        window.location = "/Iskcon";
-    }
-    const WonderMap = () => {
-        window.location = "/Wonderla";
-    }
-    const MysoreMap = () => {
-        window.location = "/MysorePalace";
-    }
-    const LalbaghMap = () => {
-        window.location = "/Lalbagh";
-    }
-    const planetoriumMap = () => {
-        window.location = "/NehruPlanetorium";
-    }
     return (
         <div id="mostvisited-body-main-div">
             <div id="heading">
             <h1 id="heading-mostvisited-h1">Most Visited Places in Bangalore</h1>
             </div>
-            <h1>1. Vidhan Soudha</h1>
+            <h1>1. Vidhana Soudha</h1>
             <div id="sections-most-visited">
             <section id="mostvisited-left-col-page">
                 <img src={VidhanSoudhaImg}/>
             </section>
             <section id="mostvisited-right-col-page">
                 <div id="map-1">
-                        <p className="Address-Vidhan"><span className="Address-1-Vidhan">Address: </span>
-                        Ambedkar Veedhi, Sampangi Rama Nagara, Bengaluru</p>
-                        <p className="Opening-Vidhan"><span className="Opening-1-Vidhan">Opening hours: </span>
-                        Monday–Friday 9am–5pm, closed on Saturday–Sunday</p>
-                        <button className="map-Vidhan" onClick={VidhanMap}>Location</button>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4391.144904229182!2d77.58958812613491!3d12.97952803958199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae166dd8fee8b7%3A0xa3112775dc579453!2sVidhana%20Soudha%2C%20Ambedkar%20Veedhi%2C%20Sampangi%20Rama%20Nagar%2C%20Bengaluru%2C%20Karnataka%20560001!5e0!3m2!1sen!2sin!4v1614679468604!5m2!1sen!2sin" width="500" height="300" style={{border:0}}  loading="lazy"></iframe>
                 </div>
             </section>
             </div>
             <div id="Info-Vidhan">
+                <div className="address-info">
+            <p className="Address-Vidhan"><span className="Address-1-Vidhan">Address: </span> &nbsp; Ambedkar Veedhi, Sampangi Rama Nagara, Bengaluru</p>
+            <p className="Opening-Vidhan"><span className="Opening-1-Vidhan">Opening hours: </span> &nbsp;  Monday–Friday 9am–5pm, closed on Saturday–Sunday</p>
+            </div>
                 <p>The Vidhana Soudha is one of India's finest pieces of architecture. 
                     Located at the north-west part of Cubbon Park, the Neo-Dravidian granite palace is a blend of styles from across India, 
                     boasting the country’s most recognisable symbol, the four-headed gold lion of Ashoka. 
@@ -70,9 +42,7 @@ const MostVisited = () => {
             <div id="sections-most-visited-2">
             <section id="mostvisited-2-left-col-page">
                     <div id="map-2">
-                        <p className="Address-Cubbon"><span className="Address-1-Cubbon">Address:</span><span className="Address-2-Cubbon">Kasturba Road, Sampangi Rama Nagara, Bengaluru</span></p>
-                        <p className="Opening-Cubbon"><span className="Opening-1-Cubbon">Opening hours:</span><span className="Opening-2-Cubbon">Monday–Saturday 6am–7pm, Sunday 6am–7:45pm</span></p>
-                        <button className="map-Cubbon" onClick={CubbonMap}>Location</button>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7938.18552061648!2d77.58703813327455!3d12.979050237413512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1673e7d0672f%3A0xc62ca5a6e943dfb8!2sCubbon%20Park!5e0!3m2!1sen!2sin!4v1614686804385!5m2!1sen!2sin" width="500" height="300" style={{border:0}}></iframe>
                     </div>
                 </section>
                 <section id="mostvisited-2-right-col-page">
@@ -80,6 +50,10 @@ const MostVisited = () => {
                 </section>
             </div>
             <div id="Info-Cubbon">
+                <div className="address-info">
+                <p className="Address-Cubbon"><span className="Address-1-Cubbon">Address:</span> &nbsp;Kasturba Road, Sampangi Rama Nagara, Bengaluru</p>
+                <p className="Opening-Cubbon"><span className="Opening-1-Cubbon">Opening hours:</span> &nbsp;Monday–Saturday 6am–7pm, Sunday 6am–7:45pm</p>
+                </div>
                 <p>Dating back to 1864, Cubbon Park covers an area of 300 acres, 
                     and it is filled with an extraordinary selection of flora and fauna, 
                     offering a popular spot for picnics and playing cricket. 
@@ -94,13 +68,15 @@ const MostVisited = () => {
                 </section>
                 <section id="mostvisited-3-right-col-page">
                     <div id="map-3">
-                        <p className="Address-Palace"><span className="Address-1-Palace">Address:</span><span className="Address-2-Palace">Vasanth Nagar, Bengaluru</span></p>
-                        <p className="Opening-Palace"><span className="Opening-1-Palace">Opening hours:</span><span className="Opening-2-Palace">Daily 10:30am–5:30pm</span></p>
-                        <button className="map-Palace" onClick={PalaceMap}>Location</button>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.578864597233!2d77.58991841409573!3d12.998765990838027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1649294a5637%3A0xb1f8b77e331512cf!2sBangalore%20Palace!5e0!3m2!1sen!2sin!4v1614682163678!5m2!1sen!2sin" width="500" height="300" style={{border:0}}></iframe>
                     </div>
                 </section>
             </div>
             <div id="Info-Palace">
+                <div className="address-info">
+                <p className="Address-Palace"><span className="Address-1-Palace">Address:</span> &nbsp;Vasanth Nagar, Bengaluru</p>
+                        <p className="Opening-Palace"><span className="Opening-1-Palace">Opening hours:</span> &nbsp;Daily 10:30am–5:30pm</p>
+                </div>
                 <p>Built to resemble the Windsor Castle in England, this is the seat of the current Maharajah of Mysore, 
                     head of the royal Wodeyar dynasty. Here, you can explore the lavish interiors and, also, 
                     a surprisingly wide exhibition of nudes which is displayed in some rooms here. 
@@ -111,9 +87,7 @@ const MostVisited = () => {
             <div id="sections-most-visited-4">
             <section id="mostvisited-4-right-col-page">
                     <div id="map-4">
-                        <p className="Address-Hills"><span className="Address-1-Hills">Address:</span>10 km from Chickballapur town, Bengaluru</p>
-                        <p className="Opening-Hills"><span className="Opening-1-Hills">Opening hours:</span>Daily 6:00am–10:00pm</p>
-                        <button className="map-Hills" onClick={HillsMap}>Location</button>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46649.49518030455!2d77.66962544438692!3d13.375549703560097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb1e44f23b770ed%3A0x98a30c3014825b9e!2sNandi%20Hills%20Sunrise%20View%20Point!5e0!3m2!1sen!2sin!4v1614682865981!5m2!1sen!2sin" width="500" height="300" style={{border:0}}></iframe>
                     </div>
                 </section>
                 <section id="mostvisited-4-left-col-page">
@@ -121,6 +95,10 @@ const MostVisited = () => {
                 </section>
             </div>
             <div id="Info-Hills">
+                <div className="address-info">
+                <p className="Address-Hills"><span className="Address-1-Hills">Address:</span> &nbsp;10 km from Chickballapur town, Bengaluru</p>
+                <p className="Opening-Hills"><span className="Opening-1-Hills">Opening hours:</span> &nbsp;Daily 6:00am–10:00pm</p>
+                </div>
                 <p>Nandi Hills, also known as Nandidurg or Nandi Betta is an ancient hill fortress situated in a district called Chikkabalapur in Karnataka.  
                     Situated near the town of Nandi, the ancient belief is that they are the origin of the Arkavathy River.
                     At a height of 4851m above sea level, Nandi Hills is a favorite destination for all nature lovers and a popular picnic spot.
@@ -135,14 +113,15 @@ const MostVisited = () => {
                 </section>
                 <section id="mostvisited-5-right-col-page">
                     <div id="map-5">
-                        <p className="Address-Temple"><span className="Address-1-Temple">Address:</span><span className="Address-2-Temple">Hare Krishna Hill, Chord Rd, Rajajinagar, Bengaluru</span></p>
-                        <p className="Opening-Temple"><span className="Opening-1-Temple">Opening hours:</span><span className="Opening-2-Temple">Daily 4:15 a.m. to 5:00 a.m., 7:15 a.m. to 1:00 p.m.</span></p>
-                        <p><span>and 4:00 p.m. to 8.20 p.m.</span></p>
-                        <button className="map-Temple" onClick={TempleMap}>Location</button>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.405451571955!2d77.54890771409592!3d13.009832790830773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3ded0b360e07%3A0x7a7fb24a41a6b2b3!2sISKCON%20Temple%20Bangalore!5e0!3m2!1sen!2sin!4v1614684037914!5m2!1sen!2sin" width="500" height="300" style={{border:0}}></iframe>
                     </div>
                 </section>
             </div>
             <div id="Info-Temple">
+                <div className="address-info">
+                        <p className="Address-Temple"><span className="Address-1-Temple">Address:</span> &nbsp;Hare Krishna Hill, Chord Rd, Rajajinagar, Bengaluru</p>
+                        <p className="Opening-Temple"><span className="Opening-1-Temple">Opening hours:</span> &nbsp;Daily 4:15 a.m to 5:00 a.m.,7:15 a.m to 1:00 p.m and 4:00 p.m to 8.20 p.m.</p>
+                </div>
                 <p>Located in the Rajaji Nagar in Bangalore, and a venture of the International Society of Krishna Consciousness, 
                     ISKCON Temple in Bangalore is a shrine to Lord Krishna. This splendid architecture was first erected by Sri Madhu Pandit Das 
                     and inaugurated in the year 1997 by the then President of India, Shankar Dayal SharmaThe ISKCON Temple at Bangalore is known 
@@ -154,9 +133,7 @@ const MostVisited = () => {
             <div id="sections-most-visited-6">
             <section id="mostvisited-6-right-col-page">
                     <div id="map-6">
-                        <p className="Address-Wonderla"><span className="Address-1-Wonderla">Address:</span><span className="Address-2-Wonderla">28th Km, Mysore Rd, Bengaluru</span></p>
-                        <p className="Opening-Wonderla"><span className="Opening-1-Wonderla">Opening hours:</span><span className="Opening-2-Wonderla">11 am to 6 pm from Wednesday to Sunday</span></p>
-                        <button className="map-Wonderla" onClick={WonderMap}>Location</button>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1692.1361262622347!2d77.40043809847319!3d12.834365720093698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae47c7ffab735b%3A0x5e52a4e8d0a84438!2sWonderla%20Amusement%20Park%2C%20Bangalore!5e0!3m2!1sen!2sin!4v1614684781651!5m2!1sen!2sin" width="500" height="300" style={{border:0}}></iframe>
                     </div>
                 </section>
                 <section id="mostvisited-6-left-col-page">
@@ -164,6 +141,10 @@ const MostVisited = () => {
                 </section>
             </div>
             <div id="Info-Wonderla">
+                <div className="address-info">
+                <p className="Address-Wonderla"><span className="Address-1-Wonderla">Address:</span> &nbsp;28th Km, Mysore Rd, Bengaluru</p>
+                        <p className="Opening-Wonderla"><span className="Opening-1-Wonderla">Opening hours:</span> &nbsp;11 am to 6 pm from Wednesday to Sunday</p>
+                </div>
                 <p>The loudest, craziest, and the most amazing part of town. 
                     This simply is not just any amusement park in Bengaluru, 
                     but a world of breath-taking charm. It’s a place to celebrate the smaller
@@ -179,13 +160,15 @@ const MostVisited = () => {
                 </section>
                 <section id="mostvisited-7-right-col-page">
                     <div id="map-7">
-                        <p className="Address-Mysore"><span className="Address-1-Mysore">Address:</span><span className="Address-2-Mysore">Sayyaji Rao Rd, Agrahara, Chamrajpura, Mysuru</span></p>
-                        <p className="Opening-Mysore"><span className="Opening-1-Mysore">Opening hours:</span><span className="Opening-2-Mysore">Daily from 10.00 am to 5.30 pm</span></p>
-                        <button className="map-Mysore" onClick={MysoreMap}>Location</button>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3898.1577266243357!2d76.6529862140866!3d12.305162991295537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf701103f9a1f9%3A0xc37fbae2a124da0d!2sMysore%20Palace!5e0!3m2!1sen!2sin!4v1614685366788!5m2!1sen!2sin" width="500" height="300" style={{border:0}}></iframe>
                     </div>
                 </section>
             </div>
             <div id="Info-Mysore">
+                <div className="address-info">
+                <p className="Address-Mysore"><span className="Address-1-Mysore">Address:</span> &nbsp;Sayyaji Rao Rd, Agrahara, Chamrajpura, Mysuru</p>
+                        <p className="Opening-Mysore"><span className="Opening-1-Mysore">Opening hours:</span> &nbsp;Daily from 10.00 am to 5.30 pm</p>
+                </div>
                 <p>The Mysore Palace is a historical palace and the royal residence(house) at Mysore in the Indian State of Karnataka. 
                     It is the official residence of the Wadiyar dynasty and the seat of the Kingdom of Mysore. 
                     The palace is in the centre of Mysore, and faces the Chamundi Hills eastward. 
@@ -202,9 +185,7 @@ const MostVisited = () => {
             <div id="sections-most-visited-8">
             <section id="mostvisited-8-right-col-page">
                     <div id="map-8">
-                        <p className="Address-Lalbagh"><span className="Address-1-Lalbagh">Address:</span><span className="Address-2-Lalbagh">Mavalli, Bengaluru</span></p>
-                        <p className="Opening-Lalbagh"><span className="Opening-1-Lalbagh">Opening hours:</span><span className="Opening-2-Lalbagh">Daily 8.00 AM to 6.00 PM</span></p>
-                        <button className="map-Lalbagh" onClick={LalbaghMap}>Location</button>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.33164351832!2d77.58389753209428!3d12.950617719706045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15c191f2d31d%3A0x8e110b99df2fbe22!2sLalbagh%20Botanical%20Garden!5e0!3m2!1sen!2sin!4v1614685965630!5m2!1sen!2sin" width="500" height="300" style={{border:0}}></iframe>
                     </div>
                 </section>
                 <section id="mostvisited-8-left-col-page">
@@ -212,6 +193,10 @@ const MostVisited = () => {
                 </section>
             </div>
             <div id="Info-Lalbagh">
+                <div className="address-info">
+                <p className="Address-Lalbagh"><span className="Address-1-Lalbagh">Address:</span> &nbsp;Mavalli, Bengaluru</p>
+                        <p className="Opening-Lalbagh"><span className="Opening-1-Lalbagh">Opening hours:</span> &nbsp;Daily 8.00 AM to 6.00 PM</p>
+                </div>
                 <p>Lalbagh is a popular botanical garden situated in Bangalore (Bengaluru). 
                     This garden is a home to a variety of flora and fauna. There are many different kinds of bird 
                     species found here like Myna, Common Egret, Parakeets, and Pond Heron etc.
@@ -228,14 +213,15 @@ const MostVisited = () => {
                 </section>
                 <section id="mostvisited-9-right-col-page">
                     <div id="map-9">
-                        <p className="Address-Nehru"><span className="Address-1-Nehru">Address:</span><span className="Address-2-Nehru">Sri T. Choudaiah Road, High Grounds, Bengaluru</span></p>
-                        <p className="Opening-Nehru"><span className="Opening-1-Nehru">Opening hours:</span><span className="Opening-2-Nehru">10:00 AM to 5:30 PM every day,</span></p>
-                        <p><span> except on Mondays and second Tuesdays</span></p>
-                        <button className="map-Nehru" onClick={planetoriumMap}>Location</button>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.796459601593!2d77.58744541409553!3d12.984866490847148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae166bedda581f%3A0x757d1ae9f63c2835!2sJawaharlal%20Nehru%20Planetarium!5e0!3m2!1sen!2sin!4v1614686517706!5m2!1sen!2sin" width="500" height="300" style={{border:0}}></iframe>
                     </div>
                 </section>
             </div>
             <div id="Info-Nehru">
+                <div className="address-info">
+                <p className="Address-Nehru"><span className="Address-1-Nehru">Address:</span> &nbsp;Sri T. Choudaiah Road, High Grounds, Bengaluru</p>
+                        <p className="Opening-Nehru"><span className="Opening-1-Nehru">Opening hours:</span> &nbsp;10:00 AM to 5:30 PM every day,except on Mondays and second Tuesdays</p>
+                </div>
                 <p>Established in the year 1989, the Jawaharlal Nehru Planetarium in Bangalore is 
                     one of the five planetariums in India, all of which have been named after the 
                     country’s first prime minister. The Bangalore Planetarium is administered by the 

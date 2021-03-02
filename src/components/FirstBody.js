@@ -19,8 +19,7 @@ const FirstBody = () => {
                 <div className="square">
                     <p>         Once known as 'The Garden City' of India, earliest records of a place named ’Bengaluru’ date back to a 9th century temple in an area that is now known as ’Old Bangalore’.
                         The city is split into two main districts: ’Urban’ and ’Rural’. Within the city itself, Mahatma Gandhi Road (M.G. Road), running from Trinity Circle at one end to Anil Kumble Circle at the other, 
-                        is the main thoroughfare filled with banks, smart shops and restaurants. The city’s other main hub, Gandhinagar, in the western part of the city, is where you will find the central bus stand and the main railway station. 
-                        Nicknamed “Majestic”, the area is crowded, busy and and full of shops, cinemas and budget hotels. In the northern part of the town reside the Raj-era buildings, the High Court and the racecourse.
+                        is the main thoroughfare filled with banks, smart shops and restaurants.
                         </p>
                 </div>
                 <h2>“The world is a book and those who do not travel read only a page.”</h2>

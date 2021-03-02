@@ -36,7 +36,7 @@ const SecondBody = () => {
                     <img src={CubbonPark2} id="img-2-mostvisited"/>
                 </div>
                 <div id="img-3-div" className="imgs-div">
-                    <p className="img-description">Bangalore Palace</p>
+                    <p className="img-description">Palace</p>
                     <img src={center} id="img-3-mostvisited"/>
                 </div>
                 <div id="img-4-div" className="imgs-div">
@@ -60,7 +60,7 @@ const SecondBody = () => {
                     <img src={Lalbagh} id="img-8-mostvisited"/>
                 </div>
                 <div id="img-9-div" className="imgs-div">
-                    <p className="img-description">Nehru planetorium</p>
+                    <p className="img-description">Planetorium</p>
                     <img src={planetorium} id="img-9-mostvisited"/>
                 </div>
             </div>

@@ -30,7 +30,15 @@ export default function FooterBody(){
                         <a href="#" id="linkedin"><i className="fab fa-linkedin"></i><IoIcons.IoLogoLinkedin/></a>
                     </div>
                 </div>
-                <div className="footer-section links"></div>
+                <div className="footer-section links">
+                    <ul id="footer-flex">
+                        <li>About</li>
+                        <li>Gallery</li>
+                        <li>Most Visited</li>
+                        <li>The City</li>
+                        <li>Contact us</li>
+                    </ul>
+                </div>
                 <div className="footer-section contact-form">
                     <div className="btn-footer-register">
                     <div>Register for some date to visit Bangalore.</div>

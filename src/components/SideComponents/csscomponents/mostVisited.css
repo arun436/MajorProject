@@ -1,5 +1,5 @@
 #mostvisited-body-main-div #heading-mostvisited-h1{
-    padding-top: 70px;
+    padding-top: 40px;
     font-size: 40px;
     margin-bottom: 70px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -24,7 +24,8 @@
     margin-top: 50px;
 }
 #mostvisited-body-main-div #sections-most-visited #mostvisited-left-col-page img{
-    padding-left: 70px;
+    padding-left: 90px;
+    margin-left: 30px;
     width: 90%;
 }
 #mostvisited-body-main-div #sections-most-visited #most-visited-right-col-page{
@@ -32,30 +33,23 @@
     display: flex;
 }
 #mostvisited-body-main-div #sections-most-visited #mostvisited-right-col-page #map-1{
-    padding-left: 0;
-    padding-top: 100px;
+    margin-left: 140px;
+    padding-top: 50px;
     padding-right: 10px;
     justify-content: flex-start;
 }
-
-#mostvisited-body-main-div #sections-most-visited #mostvisited-right-col-page #map-1 p{
-    line-height: 40px;
-    font-size: 18px;
-    justify-content: flex-start;
+#mostvisited-body-main-div #Info-Vidhan .address-info p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    text-indent: 0%;
 }
-#mostvisited-body-main-div #sections-most-visited #mostvisited-right-col-page #map-1 p .Address-1-Vidhan,.Opening-1-Vidhan{
+#mostvisited-body-main-div #Info-Vidhan .address-info p span{
     font-weight: bold;
 }
-#mostvisited-body-main-div #sections-most-visited #mostvisited-right-col-page #map-1 .map-Vidhan{
-    margin-left: 300px;
-    margin-top: 50px;
-    font-size: 17px;
-    padding: 5px;
-    padding-left: 7px;
-    padding-right: 7px;
-    background-color: rgb(128, 0, 64);
-    color: white;
+#mostvisited-body-main-div #Info-Vidhan .address-info{
+    margin-bottom: 20px;
 }
+
 #mostvisited-body-main-div #Info-Vidhan{
     text-align: justify;
     padding-left: 100px;
@@ -85,28 +79,22 @@
     flex-basis: 60%;
 }
 #mostvisited-body-main-div #sections-most-visited-2 #mostvisited-2-left-col-page #map-2{
-    padding-left: 0;
-    padding-top: 100px;
+    margin-left: 30px;
+    padding-left: 90px;
+    /* padding-top: 100px; */
 }
-
-#mostvisited-body-main-div #sections-most-visited-2 #mostvisited-2-left-col-page #map-2 p{
-    line-height: 40px;
-    font-size: 18px;
-    justify-content: flex-start;
+#mostvisited-body-main-div #Info-Cubbon .address-info{
+    margin-bottom: 20px;
 }
-#mostvisited-body-main-div #sections-most-visited-2 #mostvisited-2-left-col-page #map-2 p .Address-1-Cubbon,.Opening-1-Cubbon{
+#mostvisited-body-main-div #Info-Cubbon .address-info p span{
     font-weight: bold;
 }
-#mostvisited-body-main-div #sections-most-visited-2 #mostvisited-2-left-col-page #map-2 .map-Cubbon{
-    margin-left: 300px;
-    margin-top: 50px;
-    font-size: 17px;
-    padding: 5px;
-    padding-left: 7px;
-    padding-right: 7px;
-    background-color: rgb(128, 0, 64);
-    color: white;
+#mostvisited-body-main-div #Info-Cubbon .address-info p{
+    text-indent: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
 }
+
 #mostvisited-body-main-div #Info-Cubbon{
     text-align: justify;
     padding-left: 100px;
@@ -135,27 +123,20 @@
     flex-basis: 60%;
 }
 #mostvisited-body-main-div #sections-most-visited-3 #mostvisited-3-right-col-page #map-3{
+    width: 80%;
     margin-left: 100px;
-    padding-top: 100px;
+    /* padding-top: 50px; */
 }
-
-#mostvisited-body-main-div #sections-most-visited-3 #mostvisited-3-right-col-page #map-3 p{
-    line-height: 40px;
-    font-size: 19px;
-    justify-content: flex-start;
+#mostvisited-body-main-div #Info-Palace .address-info{
+    margin-bottom: 20px;
 }
-#mostvisited-body-main-div #sections-most-visited-3 #mostvisited-3-right-col-page #map-3 p .Address-1-Palace,.Opening-1-Palace{
+#mostvisited-body-main-div #Info-Palace .address-info p{
+    text-indent: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+#mostvisited-body-main-div #Info-Palace .address-info p span{
     font-weight: bold;
-}
-#mostvisited-body-main-div #sections-most-visited-3 #mostvisited-3-right-col-page #map-3 .map-Palace{
-    margin-left: 200px;
-    margin-top: 50px;
-    font-size: 17px;
-    padding: 5px;
-    padding-left: 7px;
-    padding-right: 7px;
-    background-color: rgb(128, 0, 64);
-    color: white;
 }
 #mostvisited-body-main-div #Info-Palace{
     text-align: justify;
@@ -176,39 +157,32 @@
 }
 #mostvisited-body-main-div #sections-most-visited-4 #mostvisited-4-left-col-page{
     flex-basis: 40%;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 #mostvisited-body-main-div #sections-most-visited-4 #mostvisited-4-left-col-page img{
-    width: 90%;
+    width: 100%;
     /* padding-left: 100px; */
 }
 #mostvisited-body-main-div #sections-most-visited-4 #most-visited-4-right-col-page{
     flex-basis: 60%;
 }
 #mostvisited-body-main-div #sections-most-visited-4 #mostvisited-4-right-col-page #map-4{
+    margin-left: 50px;
     padding-left: 30px;
-    padding-top: 100px;
+    /* padding-top: 100px; */
 }
-
-#mostvisited-body-main-div #sections-most-visited-4 #mostvisited-4-right-col-page #map-4 p{
-    line-height: 40px;
-    font-size: 19px;
-    justify-content: flex-start;
-    padding-left: 20px;
+#mostvisited-body-main-div  #Info-Hills .address-info p{
+    text-indent: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
 }
-#mostvisited-body-main-div #sections-most-visited-4 #mostvisited-4-right-col-page #map-4 p .Address-1-Hills,.Opening-1-Hills{
+#mostvisited-body-main-div  #Info-Hills .address-info p span{
     font-weight: bold;
 }
-#mostvisited-body-main-div #sections-most-visited-4 #mostvisited-4-right-col-page #map-4 .map-Hills{
-    margin-left: 300px;
-    margin-top: 50px;
-    font-size: 17px;
-    padding: 5px;
-    padding-left: 7px;
-    padding-right: 7px;
-    background-color: rgb(128, 0, 64);
-    color: white;
+#mostvisited-body-main-div  #Info-Hills .address-info{
+    margin-bottom: 20px;
 }
+
 #mostvisited-body-main-div #Info-Hills{
     text-align: justify;
     padding-left: 100px;
@@ -228,7 +202,7 @@
 }
 #mostvisited-body-main-div #sections-most-visited-5 #mostvisited-5-left-col-page{
     flex-basis: 40%;
-    margin-left: 60px;
+    margin-left: 80px;
 }
 #mostvisited-body-main-div #sections-most-visited-5 #mostvisited-5-left-col-page img{
     width: 90%;
@@ -236,32 +210,26 @@
 }
 #mostvisited-body-main-div #sections-most-visited-5 #most-visited-5-right-col-page{
     flex-basis: 60%;
+    width: 100%;
 }
 #mostvisited-body-main-div #sections-most-visited-5 #mostvisited-5-right-col-page #map-5{
     padding-left: 0;
-    padding-top: 100px;
+    /* padding-top: 100px; */
+    margin-left: 50px;
+}
+#mostvisited-body-main-div #Info-Temple .address-info p{
+    text-indent: 0%;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-#mostvisited-body-main-div #sections-most-visited-5 #mostvisited-5-right-col-page #map-5 p{
-    line-height: 40px;
-    font-size: 19px;
-    justify-content: flex-start;
-    /* padding-left: 20px; */
-    /* padding-right: 30px; */
-}
-#mostvisited-body-main-div #sections-most-visited-5 #mostvisited-5-right-col-page #map-5 p .Address-1-Temple,.Opening-1-Temple{
+#mostvisited-body-main-div #Info-Temple .address-info p span{
     font-weight: bold;
 }
-#mostvisited-body-main-div #sections-most-visited-5 #mostvisited-5-right-col-page #map-5 .map-Temple{
-    margin-left: 300px;
-    margin-top: 50px;
-    font-size: 17px;
-    padding: 5px;
-    padding-left: 7px;
-    padding-right: 7px;
-    background-color: rgb(128, 0, 64);
-    color: white;
+#mostvisited-body-main-div #Info-Temple .address-info{
+    margin-bottom: 20px;
 }
+
 #mostvisited-body-main-div #Info-Temple{
     text-align: justify;
     padding-left: 100px;
@@ -286,37 +254,32 @@
     /* margin-left: 100px; */
 }
 #mostvisited-body-main-div #sections-most-visited-6 #mostvisited-6-left-col-page img{
-    width: 90%;
-    padding-left: 100px;
-    padding-right: 50px;
+    width: 100%;
+    padding-left: 50px;
+    /* padding-right: 50px; */
 }
 #mostvisited-body-main-div #sections-most-visited-6 #most-visited-6-right-col-page{
     flex-basis: 60%;
 }
 #mostvisited-body-main-div #sections-most-visited-6 #mostvisited-6-right-col-page #map-6{
-    /* padding-left: 50px; */
-    padding-top: 100px;
+    margin-left: 40px;
+    padding-left: 50px;
+    /* padding-top: 100px; */
 }
 
-#mostvisited-body-main-div #sections-most-visited-6 #mostvisited-6-right-col-page #map-6 p{
-    line-height: 40px;
-    font-size: 19px;
-    justify-content: flex-start;
-    /* padding-left: 20px; */
+#mostvisited-body-main-div #Info-Wonderla .address-info{
+    margin-bottom: 20px;
 }
-#mostvisited-body-main-div #sections-most-visited-6 #mostvisited-6-right-col-page #map-6 p .Address-1-Wonderla,.Opening-1-Wonderla{
+#mostvisited-body-main-div #Info-Wonderla .address-info p{
+    text-indent: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+
+#mostvisited-body-main-div #Info-Wonderla p span{
     font-weight: bold;
 }
-#mostvisited-body-main-div #sections-most-visited-6 #mostvisited-6-right-col-page #map-6 .map-Wonderla{
-    margin-left: 300px;
-    margin-top: 50px;
-    font-size: 17px;
-    padding: 5px;
-    padding-left: 7px;
-    padding-right: 7px;
-    background-color: rgb(128, 0, 64);
-    color: white;
-}
+
 #mostvisited-body-main-div #Info-Wonderla{
     text-align: justify;
     padding-left: 100px;
@@ -336,10 +299,10 @@
 }
 #mostvisited-body-main-div #sections-most-visited-7 #mostvisited-7-left-col-page{
     flex-basis: 40%;
-    margin-left: 60px;
+    margin-left: 30px;
 }
 #mostvisited-body-main-div #sections-most-visited-7 #mostvisited-7-left-col-page img{
-    width: 90%;
+    width: 100%;
     padding-left: 50px;
 }
 #mostvisited-body-main-div #sections-most-visited-7 #most-visited-7-right-col-page{
@@ -347,27 +310,16 @@
 }
 #mostvisited-body-main-div #sections-most-visited-7 #mostvisited-7-right-col-page #map-7{
     padding-left: 0;
-    padding-top: 100px;
+    margin-left: 100px;
+    /* padding-top: 100px; */
 }
-
-#mostvisited-body-main-div #sections-most-visited-7 #mostvisited-7-right-col-page #map-7 p{
-    line-height: 40px;
-    font-size: 19px;
-    justify-content: flex-start;
-    /* padding-left: 20px; */
+#mostvisited-body-main-div #Info-Mysore .address-info p{
+    text-indent: 0%;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
 }
-#mostvisited-body-main-div #sections-most-visited-7 #mostvisited-7-right-col-page #map-7 p .Address-1-Mysore,.Opening-1-Mysore{
+#mostvisited-body-main-div #Info-Mysore .address-info p span{
     font-weight: bold;
-}
-#mostvisited-body-main-div #sections-most-visited-7 #mostvisited-7-right-col-page #map-7 .map-Mysore{
-    margin-left: 300px;
-    margin-top: 50px;
-    font-size: 17px;
-    padding: 5px;
-    padding-left: 7px;
-    padding-right: 7px;
-    background-color: rgb(128, 0, 64);
-    color: white;
 }
 #mostvisited-body-main-div #Info-Mysore{
     text-align: justify;
@@ -375,6 +327,9 @@
     padding-right: 100px;
     line-height: 35px;
     font-size: 19px;
+}
+#mostvisited-body-main-div #Info-Mysore .address-info {
+    margin-bottom: 20px;
 }
 
 #mostvisited-body-main-div #Lalbagh-heading{
@@ -389,40 +344,32 @@
 #mostvisited-body-main-div #sections-most-visited-8 #mostvisited-8-left-col-page{
     flex-basis: 40%;
     /* margin-right: 50px; */
-    margin-left: 200px;
+    /* margin-left: 200px; */
 }
 #mostvisited-body-main-div #sections-most-visited-8 #mostvisited-8-left-col-page img{
-    width: 90%;
+    width: 100%;
+    margin-left: 70px;
     /* padding-right: 50px; */
 }
 #mostvisited-body-main-div #sections-most-visited-8 #most-visited-8-right-col-page{
     flex-basis: 60%;
+    margin-left: 40px;
 }
 #mostvisited-body-main-div #sections-most-visited-8 #mostvisited-8-right-col-page #map-8{
-    padding-left: 0;
-    padding-top: 100px;
+    padding-left: 80px;
+    /* padding-top: 100px; */
+}
+#mostvisited-body-main-div  #Info-Lalbagh .address-info p{
+    text-indent: 0%;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-#mostvisited-body-main-div #sections-most-visited-8 #mostvisited-8-right-col-page #map-8 p{
-    line-height: 40px;
-    font-size: 19px;
-    justify-content: flex-start;
-    padding-left: 20px;
-    /* margin-left: 20px; */
-    /* padding-right: 50px; */
-}
-#mostvisited-body-main-div #sections-most-visited-8 #mostvisited-8-right-col-page #map-8 p .Address-1-Lalbagh,.Opening-1-Lalbagh{
+#mostvisited-body-main-div  #Info-Lalbagh .address-info p span{
     font-weight: bold;
 }
-#mostvisited-body-main-div #sections-most-visited-8 #mostvisited-8-right-col-page #map-8 .map-Lalbagh{
-    margin-left: 270px;
-    margin-top: 50px;
-    font-size: 17px;
-    padding: 5px;
-    padding-left: 7px;
-    padding-right: 7px;
-    background-color: rgb(128, 0, 64);
-    color: white;
+#mostvisited-body-main-div  #Info-Lalbagh .address-info{
+    margin-bottom: 20px;
 }
 #mostvisited-body-main-div #Info-Lalbagh{
     text-align: justify;
@@ -447,6 +394,7 @@
 }
 #mostvisited-body-main-div #sections-most-visited-9 #mostvisited-9-left-col-page img{
     width: 90%;
+    height: 300px;
     padding-left: 50px;
 }
 #mostvisited-body-main-div #sections-most-visited-9 #most-visited-9-right-col-page{
@@ -454,28 +402,21 @@
 }
 #mostvisited-body-main-div #sections-most-visited-9 #mostvisited-9-right-col-page #map-9{
     padding-left: 0;
-    padding-top: 100px;
+    margin-left: 50px;
+    /* padding-top: 100px; */
 }
-
-#mostvisited-body-main-div #sections-most-visited-9 #mostvisited-9-right-col-page #map-9 p{
-    line-height: 40px;
-    font-size: 19px;
-    justify-content: flex-start;
-    /* padding-left: 20px; */
+#mostvisited-body-main-div #Info-Nehru .address-info{
+    margin-bottom: 20px;
 }
-#mostvisited-body-main-div #sections-most-visited-9 #mostvisited-9-right-col-page #map-9 p .Address-1-Nehru,.Opening-1-Nehru{
+#mostvisited-body-main-div #Info-Nehru .address-info p{
+    text-indent: 0%;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+}
+#mostvisited-body-main-div #Info-Nehru .address-info p span{
     font-weight: bold;
 }
-#mostvisited-body-main-div #sections-most-visited-9 #mostvisited-9-right-col-page #map-9 .map-Nehru{
-    margin-left: 270px;
-    margin-top: 50px;
-    font-size: 17px;
-    padding: 5px;
-    padding-left: 7px;
-    padding-right: 7px;
-    background-color: rgb(128, 0, 64);
-    color: white;
-}
+
 #mostvisited-body-main-div #Info-Nehru{
     text-align: justify;
     padding-left: 100px;
