@@ -8,7 +8,7 @@ const TopNav = () => {
     return (
         <>
         <ul id="top-nav-ul">
-            <li class="active"><a href="#">Home</a></li>
+            <li className="active"><a href="#">Home</a></li>
             <li><a href="#">About us</a></li>
             <li><a href="#">Gallery</a></li>
             <li><a href="#">Contact</a></li>
