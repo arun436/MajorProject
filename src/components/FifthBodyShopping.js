@@ -3,6 +3,9 @@ import './SideComponents/Home.css';
 import ShoppingMallMain from './images/ShoppingMallMain.jpg';
 
 function FifthBodyShopping() {
+    const openShopping = () => {
+        window.location = "/shopping";
+    }
     return (
         <section id="body-5">
             <div id="shopping-left-col">
@@ -20,7 +23,7 @@ function FifthBodyShopping() {
                     </p>
                 </div>
                 <div id="button-shopping">
-                    <button id="btn-shopping">Open</button>
+                    <button id="btn-shopping" onClick={openShopping}>Open</button>
                 </div>
             </div>
         </section>

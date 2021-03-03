@@ -2,6 +2,9 @@ import React from 'react'
 import CafesMain from './images/CafesMain.jpg';
 
 function SixthBodyCafes() {
+    const openCafes = () => {
+        window.location = "/cafes"
+    }
     return (
         <section id="body-6">
             <div id="cafes-left-col">
@@ -19,7 +22,7 @@ function SixthBodyCafes() {
                 </p>
                 </div>
                 <div id="button-cafe">
-                    <button id="btn-cafe">Open</button>
+                    <button id="btn-cafe" onClick={openCafes}>Open</button>
                 </div>
             </div>
             <div id="cafes-right-col">

@@ -211,11 +211,11 @@ const Hotels = () => {
                   Fully equipped cardiovascular and weight-training systems are provided at the state-of-the-art gym. 
                   CHI, The Spa offers treatments inspired by the legend of the Shangri-La origin.</p>
             </div>
-            <div className="footer">
+            </div>
+            <div className="footer-rest">
                 <div className="footer-bottom">
                 &copy; Travelguides.com | Designed by Arun Kumar Chintha
                 </div>
-            </div>
             </div>
         </>
     );

@@ -140,6 +140,11 @@ const Shopping = () => {
                     sculptures and wonderfully crafted teak furniture.</p>
             </div>
             </div>
+            <div className="footer-rest">
+                <div className="footer-bottom">
+                &copy; Travelguides.com | Designed by Arun Kumar Chintha
+                </div>
+            </div>
         </>
     );
 };

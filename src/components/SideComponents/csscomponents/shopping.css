@@ -1,8 +1,8 @@
-#restaurants-body-main-div #entry-para{
+#restaurants-body-main-div,#mostvisited-body-main-div #entry-para{
     padding-left: 80px;
     padding-right: 80px;
-    font-size: 19px;
+    font-size: 18px;
     text-align: justify;
     line-height: 35px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }

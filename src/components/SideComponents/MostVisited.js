@@ -16,7 +16,16 @@ const MostVisited = () => {
             <div id="heading">
             <h1 id="heading-mostvisited-h1">Most Visited Places in Bangalore</h1>
             </div>
-            <h1>1. Vidhana Soudha</h1>
+            <p id="entry-para">
+            Despite Bangalore's sudden development, the city preserves its charm unaltered, in a plethora of old buildings, temples, colourful markets and peaceful gardens.
+
+The extraordinary timber-built Tipu Sultan Palace in the heart of the city gives a fascinating glimpse into Bangalore's past, and a sense of perspective in this wannabe-modern city projected into the future. A renowned 17th-century temple and the ruins of Bangalore's fort are only a few steps away, creating a hub of historical constructions. Karnataka's State Legislature and Secretariat building, one of India’s greatest buildings, is located north-west of Cubbon Park.
+
+Despite the rush of modern life, Bangalore has a strong religious tradition, so make sure to head to Bugle Hill and the Bull Temple. As a favourite among travellers, this breathtaking 16th-century construction literally dwarfs whoever passes by.
+
+Bangalore is a city to be experienced and explored. The Garden City is famous for its parks, with some of them dating back over 200 years, and the most impressive ones are the botanical gardens of Lal Bagh.
+            </p>
+            <h1 className="heading-1">1. Vidhana Soudha</h1>
             <div id="sections-most-visited">
             <section id="mostvisited-left-col-page">
                 <img src={VidhanSoudhaImg}/>

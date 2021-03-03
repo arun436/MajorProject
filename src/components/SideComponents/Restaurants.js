@@ -234,11 +234,11 @@ const Restaurants = () => {
                     specialties and award-winning craft beer at Spice Terrace. The enticing Indian dishes 
                     and chilled microbrews are perfect for unwinding after a busy day in Bangalore.</p>
             </div>
-            <div className="footer">
-                <div className="footer-bottom">
+            </div>
+            <div className="footer-rest">
+                <div className="footer-bottom rest">
                 &copy; Travelguides.com | Designed by Arun Kumar Chintha
                 </div>
-            </div>
             </div>
         </>
     );
