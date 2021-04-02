@@ -36,7 +36,7 @@ function RegisterForm() {
         window.location = "/";
     }
     let initialInterval;
-
+    // let exp;
     let exp = /^[A-Za-z ]*$/;
     const handleSubmit = (event) => {
         event.preventDefault();

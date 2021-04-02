@@ -18,7 +18,7 @@
     padding: 30px 0;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     padding-bottom: 40px;
 }
 #mostvisited-body-main-div #sections-most-visited #mostvisited-left-col-page{
@@ -33,13 +33,16 @@
 }
 #mostvisited-body-main-div #sections-most-visited #most-visited-right-col-page{
     flex-basis: 60%;
-    display: flex;
 }
 #mostvisited-body-main-div #sections-most-visited #mostvisited-right-col-page #map-1{
-    margin-left: 140px;
+    padding-left: 100px;
     padding-top: 30px;
-    padding-right: 10px;
-    justify-content: flex-start;
+    padding-right: 60px;
+    /* max-width: 90%; */
+    /* max-height: 90%; */
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+    /* height: 90%; */
 }
 #mostvisited-body-main-div #Info-Vidhan .address-info p{
     font-family: 'Courier New', Courier, monospace;
@@ -67,7 +70,7 @@
     padding: 30px 0;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 #mostvisited-body-main-div #sections-most-visited-2 #mostvisited-2-right-col-page{
     flex-basis: 40%;
@@ -75,7 +78,7 @@
 }
 #mostvisited-body-main-div #sections-most-visited-2 #mostvisited-2-right-col-page img{
     width: 90%;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     /* padding-left: 100px; */
 }
 #mostvisited-body-main-div #sections-most-visited-2 #most-visited-2-left-col-page{
@@ -112,7 +115,7 @@
     padding: 30px 0;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 #mostvisited-body-main-div #sections-most-visited-3 #mostvisited-3-left-col-page{
     flex-basis: 40%;
@@ -156,7 +159,7 @@
     padding: 30px 0;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 #mostvisited-body-main-div #sections-most-visited-4 #mostvisited-4-left-col-page{
     flex-basis: 40%;
@@ -201,7 +204,7 @@
     padding: 30px 0;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 #mostvisited-body-main-div #sections-most-visited-5 #mostvisited-5-left-col-page{
     flex-basis: 40%;
@@ -249,7 +252,7 @@
     padding: 30px 0;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 #mostvisited-body-main-div #sections-most-visited-6 #mostvisited-6-left-col-page{
     flex-basis: 40%;
@@ -298,7 +301,7 @@
     padding: 30px 0;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 #mostvisited-body-main-div #sections-most-visited-7 #mostvisited-7-left-col-page{
     flex-basis: 40%;
@@ -342,7 +345,7 @@
     padding: 30px 0;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 #mostvisited-body-main-div #sections-most-visited-8 #mostvisited-8-left-col-page{
     flex-basis: 40%;
@@ -389,7 +392,7 @@
     padding: 30px 0;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 #mostvisited-body-main-div #sections-most-visited-9 #mostvisited-9-left-col-page{
     flex-basis: 45%;

@@ -12,7 +12,7 @@ body{
   height: 100%;
 }
 header{
-    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../images/center.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../images/center1.jpg);
     height: 100%;
     background-size: cover;
     background-position: center;
@@ -24,7 +24,7 @@ header{
     padding: 50px 0;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
   #body-1 .about-left-col{
     flex-basis: 35%;
@@ -106,7 +106,7 @@ header{
     padding: 50px 0;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
   #body-2 .Vidhan-left-div{
     flex-basis: 37%;
@@ -213,7 +213,7 @@ header{
   padding: 50px 0;
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 #body-3 #restaurants-left-col{
   flex-basis: 50%;
@@ -266,7 +266,7 @@ header{
   padding: 50px 40px;
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 #body-4 #hotels-left-col{
   flex-basis: 50%;
@@ -315,7 +315,7 @@ header{
   padding: 50px 40px;
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 #body-5 #shopping-left-col{
   flex-basis: 50%;
@@ -368,7 +368,7 @@ header{
   padding: 50px 40px;
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 #body-6 #cafes-left-col{
   flex-basis: 50%;
@@ -418,7 +418,7 @@ header{
   display: flex;
   padding: 50px 40px;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 #body-7 #bars-left-col{
   flex-basis: 50%;
@@ -468,7 +468,7 @@ header{
   display: flex;
   padding: 50px 40px;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 #body-8 #weather-left-col{
   flex-basis: 50%;
@@ -521,6 +521,10 @@ header{
   color: #d3d3d3;
   height: 320px;
   position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  box-sizing: border-box;
 }
 .footer .footer-bottom{
   background: #343a40;
@@ -535,116 +539,67 @@ header{
 }
 .footer .footer-content{
   display: flex;
-  height: 250px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
 }
 .footer .footer-content .about{
-  flex-basis: 38%;
-}
-.footer .footer-content .links{
-  flex-basis: 23%;
-}
-.footer .footer-content .contact-form{
-  flex-basis: 39%;
-}
-.footer .footer-content .footer-section{
-  /* flex-basis: 33%; */
-  /* flex: 1; */
-  /* border: 1px solid white; */
-  padding: 25px;
+  text-align: center;
 }
 .footer .footer-content .about .logo-text{
-  text-align: center;
-  font-size: 22px;
-  margin-bottom: 12px;
+  font-weight: 100;
+  margin-top: 25px;
+  color: #777;
+
 }
 .footer .footer-content .about p{
-  text-align: justify;
-  line-height: 30px;
-  font-size: 13px;
+  margin-top: 10px;
+  font-size: 16px;
 }
 .footer .footer-content .about .contact{
-  margin-top: 15px;
-  display: flex;
-  flex-direction: column;
-  margin-left: 20px;
+  padding-top: 15px;
 }
-.footer .footer-content .about .contact .footer-phone, .footer-email{
-  margin-bottom: 15px;
+.footer .footer-content .about .contact .footer-phone{
+  margin-right: 40px;
+  margin-left: 60px;
+  color: #777;
+
+}
+.footer .footer-content .about .contact .footer-email{
+  margin-left: 100px;
+  color: #777;
+
 }
 .footer .footer-content .about .socials{
   display: flex;
   flex-direction: row;
-  /* padding-left: 100px; */
-  justify-content: space-evenly;
+  justify-content: center;
+  padding-top: 7px;
 }
 .footer .footer-content .about .socials a{
   margin: 20px;
-  font-size: 26px;
-  color: white;
-  /* margin-bottom: 40px; */
+  font-size: 24px;
+  color: #777;
 }
-.footer .footer-content .links{
-  padding-top: 50px;
-  /* padding-left: 150px; */
+.footer .footer-content .about .socials a:hover{
+  color: white;
+  cursor: pointer;
+  transition: 0.6s ease;
 }
 .footer .footer-content .links ul{
   display: grid;
-  grid-template-columns: repeat(1,auto);
-  grid-gap: 20px;
-  padding-left: 100px;
+  grid-template-columns: repeat(5,auto);
+  margin-top: 20px;
+  list-style: none;
+  grid-gap: 30px;
 }
 .footer .footer-content .links ul li{
-  position: relative;
+  margin: 0px 30px;
+  color: #777;
 }
 .footer .footer-content .links ul li:hover{
-  transform: scale(1.04);
+  color: white;
+  cursor: pointer;
   transition: 0.6s ease;
-  cursor: pointer;
-}
-.footer .footer-content .contact-form{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-.footer .footer-content .contact-form .btn-footer-register div{
-  margin-left: 60px;
-  font-size: 18px;
-}
-.footer .footer-content .contact-form .btn-footer-register button{
-  margin-left: 150px;
-  margin-right: 150px;
-  margin-top: 20px;
-  padding-top: 7px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 7px;
-  font-size: 1rem;
-  cursor: pointer;
-}
-.footer .footer-content .contact-form h2{
-  margin-left: 100px;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  font-size: 18px;
-  font-weight: 300;
-}
-.footer .footer-content .contact-form .feedback-div-flex{
-  display: flex;
-  flex-direction: row;
-}
-.footer .footer-content .contact-form #input-field-feedback{
-  margin-left: 50px;
-  margin-right: 20px;
-  /* padding-bottom: 50px; */
-  padding-right: 100px;
-  font-size: 20px;
-}
-.footer .footer-content .contact-form #submit-feedback-home{
-  margin-top: 20px;
-  /* margin-bottom: 20px; */
-  padding: 7px;
-  padding-right: 15px;
-  padding-left: 10px;
-  /* margin-left: 10px; */
-  margin-bottom: 10px;
 }

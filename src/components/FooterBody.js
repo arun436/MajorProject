@@ -17,8 +17,8 @@ export default function FooterBody(){
         <div className="footer">
             <div className="footer-content">
                 <div className="footer-section about">
-                    <h1 className="logo-text"><span>Travel</span>Guides</h1>
-                    <p>Travel Guides is a fictional blog created by Arun for the purpose of utilising his skills in project making and other things.</p>
+                    <h2 className="logo-text">Bangalore Sights</h2>
+                    {/* <p>Bangalore Sights is a fictional blog created by Arun for the purpose of utilising his skills in project making and other things.</p> */}
                     <div className="contact">
                         <span className="footer-phone"><i className="fas fa-phone"></i>Phone : &nbsp; 123-456-789</span>
                         <span className="footer-email"><i className="fas fa-email"></i>Email : &nbsp; info@travelguides.com</span>
@@ -36,27 +36,18 @@ export default function FooterBody(){
                         <li>Gallery</li>
                         <li>Most Visited</li>
                         <li>The City</li>
+                        <li>Restaurants</li>
+                        <li>Hotels</li>
+                        <li>Shopping</li>
+                        <li>Bars and Nightlife</li>
+                        <li>Weather</li>
                         <li>Contact us</li>
                     </ul>
                 </div>
-                <div className="footer-section contact-form">
-                    <div className="btn-footer-register">
-                    <div>Register for some date to visit Bangalore.</div>
-                    <button onClick={register} id="btn-register-footer">Register</button>
-                    </div>
-                    <div>
-                    <h2>Feedback</h2>
-                    <div className="feedback-div-flex">
-                    <input type="text" id="input-field-feedback"></input>
-                    <span><button type="submit" id="submit-feedback-home">Submit</button></span>
-                    </div>
-                    </div>
                 </div>
             <div className="footer-bottom">
                 &copy; Travelguides.com | Designed by Arun Kumar Chintha
             </div>
-            </div>
-            
         </div>
     )
 }

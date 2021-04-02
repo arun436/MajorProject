@@ -10,7 +10,7 @@
     margin: 40px;
     margin-top: 60px;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 #city-1-section-in-city > .text-div{
     flex-basis: 50%;
@@ -33,7 +33,7 @@
 #city-2-section-in-city{
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     padding: 50px 40px;
 }
 #city-2-section-in-city .text-div{
@@ -56,7 +56,7 @@
 #city-3-section-in-city{
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     padding: 50px 40px;
 }
 #city-3-section-in-city .text-div{
@@ -85,7 +85,7 @@
 #city-4-section-in-city{
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     padding: 50px 70px;
 }
 #city-4-section-in-city #img-6-city{
